@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:gravity="center"
+    android:layout_margin="25dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter OTP"
+        android:textSize="25sp"
+        android:textColor="@color/DarkBlue"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:fontFamily="monospace"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/phoneno_edittext_vp"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="OTP"
+        android:layout_marginTop="15dp"
+        />
+
+    <Button
+        android:id="@+id/Verify_button_vp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/btnblue"
+        android:textColor="@color/white"
+        android:padding="15dp"
+        android:text="Verify"
+
+        />
+
+
+    <Button
+        android:id="@+id/Resendotp_button_vp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/btnred"
+        android:text="Resend"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/text_vp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/gray"
+        android:textSize="16dp" />
+
+
+</LinearLayout>

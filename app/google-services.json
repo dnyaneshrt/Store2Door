@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "509342359167",
+    "firebase_url": "https://store-to-door-de116.firebaseio.com",
+    "project_id": "store-to-door-de116",
+    "storage_bucket": "store-to-door-de116.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509342359167:android:92e479ba27788f3e45e94a",
+        "android_client_info": {
+          "package_name": "com.store.storetodoor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509342359167-ec2ta0e9ckrs1qf35emdk32tq90insro.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.store.storetodoor",
+            "certificate_hash": "c7d856f7f60e7fa631baceeb0b5ae40e1ad84ddd"
+          }
+        },
+        {
+          "client_id": "509342359167-bdavnirocp506nq3933ircobd9biuj3d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClgUU67WvsToykQihVRhbJHQSnAzYIp9c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509342359167-bdavnirocp506nq3933ircobd9biuj3d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
